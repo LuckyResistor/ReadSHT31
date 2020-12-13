@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Ignore build environment.
+cmake-build-*
+.idea/
