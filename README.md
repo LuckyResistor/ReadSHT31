@@ -8,7 +8,7 @@ A simple command line tool for Raspberry-Pi to read a SHT31 sensor over the I2C 
 There are a number of arguments you can use:
 
 ```
-Usage: read_sht31 [-h][-v]
+Usage: read_sht31 [arguments]
  -h|--help   Display this help.
  -s          Get the sensor status.
  -t1 -t0     Enable/disable heater.

@@ -23,7 +23,7 @@ namespace lr {
 
 void Application::showHelp()
 {
-    std::cerr << "Usage: read_sht31 [-h][-v]" << std::endl;
+    std::cerr << "Usage: read_sht31 [arguments]" << std::endl;
     std::cerr << " -h|--help   Display this help." << std::endl;
     std::cerr << " -s          Get the sensor status." << std::endl;
     std::cerr << " -t1 -t0     Enable/disable heater." << std::endl;
